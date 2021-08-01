@@ -1,3 +1,12 @@
+@font-face {
+  src: url(Roboto-Thin.ttf);
+  font-family: roboto;
+}
+
+.myHeading{
+  font-family: roboto;
+  font-size: 35pt;
+}
 
 .contact-form{
   margin-top: 10vh;
