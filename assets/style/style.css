@@ -3,9 +3,17 @@
   font-family: roboto;
 }
 
+/*Remove after fixing issue*/
 .myHeading{
   font-family: roboto;
   font-size: 35pt;
+}
+
+.soon{
+  margin-top: 10%;
+  font-family: roboto;
+  font-size: 40pt;
+  text-align: center;
 }
 
 .contact-form{
@@ -28,6 +36,12 @@
   iframe{
     width: 384px;
     height: 900px;
+  }
+
+  html,body {
+      margin:0;
+      padding:0;
+      overflow-x:hidden;
   }
 
 
