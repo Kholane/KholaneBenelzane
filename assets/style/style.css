@@ -56,7 +56,7 @@ html, body {
 
 .about-section {
   padding-top: 10rem;}
-  
+
 .about-section p {
   margin-bottom: 5rem;
 }
@@ -65,20 +65,23 @@ html, body {
   padding-top: 5rem;
   background-color: black;
 }
-.contact-section .card {
-  border: 0;
+
+.contact-info ol {
+  padding: 0;
+  margin: 0;
 }
-.contact-section .card h4, .contact-section .card .h4 {
-  font-size: 0.8rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
+ .contact-info ol li {
+  padding: 0 0 0 40px;
+  margin: 0 0 30px 0;
+  list-style: none;
+  position: relative;
 }
-.contact-section .card hr {
-  border-color: #64a19d;
-  border-width: 0.25rem;
-  width: 3rem;
+
+.contact-info ol a{
+  text-decoration: none;
+  color:white;
 }
+
 .contact-section .social {
   margin-top: 5rem;
 }
