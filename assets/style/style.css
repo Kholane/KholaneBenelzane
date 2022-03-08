@@ -1,13 +1,31 @@
+
+.hero{
+  background: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skills{
+  background: url(../img/skills.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @font-face {
   src: url(Roboto-Thin.ttf);
   font-family: roboto;
 }
 
 html, body {
+  background-color: black;
   position:relative;
   overflow-x:hidden;
   margin: 0;
   width: 100%;
+}
+
+.header{
+  background-color: black;
 }
 
 /*Remove after fixing issue*/
@@ -37,9 +55,8 @@ html, body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
+  padding-top: 10rem;}
+  
 .about-section p {
   margin-bottom: 5rem;
 }
