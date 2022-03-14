@@ -34,6 +34,11 @@ html, body {
   font-size: 35pt;
 }
 
+.dev{
+  font-family: roboto;
+  font-size: 28pt;
+}
+
 .contact-form{
   margin-top: 10vh;
   text-align: center;
@@ -44,14 +49,6 @@ html, body {
   height: 10vh;
   color: white;
   text-align: center;
-}
-
-
-/* styles for devices with screen widths of 481px to 1024px */
-@media only screen and (min-width: 481px) and
-(max-width: 1024px){
-
-
 }
 
 .about-section {
