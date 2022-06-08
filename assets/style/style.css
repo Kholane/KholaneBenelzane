@@ -1,14 +1,49 @@
 
+.navbar
+{
+  background-color: #EBC250;
+}
+
 .hero{
-  background: url(../img/background.jpg);
+  background-color: #18191A;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgb(0,0,0);
 }
 
 .skills{
   background: url(../img/skills.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.social_icons
+{
+ position: fixed;
+ z-index: 1;
+ left: 0;
+ top: 0;
+ margin-top: 40vh;
+ width: 6%;
+ height: 45%;
+ overflow: auto;
+}
+
+.social_icons div
+{
+  display: inline-block;
+  width: 55.5%;
+  margin: auto;
+  border: 2px solid #EBC250;
+  border-radius: 23px;
+  padding-top: 4px;
+  margin: 3px;
+}
+
+.social_icons div a
+{
+  text-decoration: none;
+  color: inherit;
 }
 
 @font-face {
@@ -31,12 +66,18 @@ html, body {
 /*Remove after fixing issue*/
 .myHeading{
   font-family: roboto;
-  font-size: 35pt;
+  font-size: 72px;
 }
 
 .dev{
   font-family: roboto;
   font-size: 28pt;
+}
+
+.scroll_down a
+{
+  text-decoration: none;
+  color: #EBC250;
 }
 
 .contact-form{
@@ -100,4 +141,26 @@ html, body {
 
 .footer {
   padding: 5rem 0;
+}
+
+
+@media (max-width: 576px) {
+  .social_icons
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .social_icons
+  {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .social_icons
+  {
+    display: none;
+  }
 }
