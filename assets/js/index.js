@@ -4,7 +4,7 @@ $(document).ready(function(){
   const word  = ["D","e","v","e","l","o","p","e","r"];
   let words   = "";
 
-  let text = setInterval(()=>{
+  /*let text = setInterval(()=>{
     let  letters = word[counter++];
     words = words.concat(letters);
 
@@ -16,6 +16,6 @@ $(document).ready(function(){
       $(".dev").text(``);
     }
 
-}, 300);
+}, 300);*/
 
 });

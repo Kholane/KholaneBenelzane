@@ -1,13 +1,17 @@
 
+/**/
 .navbar
 {
-  background-color: #EBC250;
+  background-color: #010203;
 }
 
-/**/
+.navbar .nav-link:hover
+{
+  border-bottom:2px solid #f01e2c;
+}
 
 .hero{
-  background-color: #18191A;
+  background-color: #010203;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgb(0,0,0);
@@ -36,7 +40,7 @@
   display: inline-block;
   width: 55.5%;
   margin: auto;
-  border: 2px solid #EBC250;
+  border: 2px solid #f01e2c;
   border-radius: 23px;
   padding-top: 4px;
   margin: 3px;
@@ -54,7 +58,7 @@
 }
 
 html, body {
-  background-color: black;
+  background-color: #010203;
   position:relative;
   overflow-x:hidden;
   margin: 0;
@@ -68,18 +72,30 @@ html, body {
 /*Remove after fixing issue*/
 .myHeading{
   font-family: roboto;
-  font-size: 72px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #d1001f;
 }
 
 .dev{
   font-family: roboto;
   font-size: 28pt;
+  font-weight: bolder;
 }
 
-.scroll_down a
+.about_me a
 {
   text-decoration: none;
-  color: #EBC250;
+  color: white;
+  background-color: #d1001f;
+  width:150px;
+  border-radius: 0 !important;
+}
+
+.about_me a:hover
+{
+  background-color:#BF0A30;
+  color: white;
 }
 
 .contact-form{
