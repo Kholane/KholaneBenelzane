@@ -1,0 +1,18 @@
+.myheading{
+    color:#BF0A30;
+}
+
+  .about_me a
+  {
+    text-decoration: none;
+    color: white;
+    background-color: #d1001f;
+    width:150px;
+    border-radius: 0;
+  }
+  
+  .about_me a:hover
+  {
+    background-color:#BF0A30;
+    color: white;
+  }

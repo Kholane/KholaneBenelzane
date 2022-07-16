@@ -1,0 +1,12 @@
+.about-section {
+    padding-top: 10rem;}
+  
+  .about-section p {
+    margin-bottom: 5rem;
+  }
+
+  .about_me a:hover
+{
+  background-color:#BF0A30;
+  color: white;
+}
