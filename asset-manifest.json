@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/benelzane/static/css/main.757d63fc.css",
+    "main.js": "/benelzane/static/js/main.debc0711.js",
+    "static/js/787.1549b0a0.chunk.js": "/benelzane/static/js/787.1549b0a0.chunk.js",
+    "index.html": "/benelzane/index.html",
+    "main.757d63fc.css.map": "/benelzane/static/css/main.757d63fc.css.map",
+    "main.debc0711.js.map": "/benelzane/static/js/main.debc0711.js.map",
+    "787.1549b0a0.chunk.js.map": "/benelzane/static/js/787.1549b0a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.757d63fc.css",
+    "static/js/main.debc0711.js"
+  ]
+}
